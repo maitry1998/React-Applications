@@ -1,6 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+animals/node_modules/
+pics/node_modules/
+jsx/node_modules/
+.DS_Store
+
 /node_modules
 /.pnp
 .pnp.js
