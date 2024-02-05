@@ -1,7 +1,9 @@
-function IndexElement(){
+function IndexElement({image}){
     return (
         <div>
-            IndexElement
+           <img src={image.urls.small} alt={image.alt_description} />
         </div>
     )
 }
+
+export default IndexElement;
