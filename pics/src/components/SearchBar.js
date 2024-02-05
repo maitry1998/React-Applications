@@ -5,6 +5,7 @@ function SearchBar({ onSubmit }) {
     const handleSubmitForm = (event) => {
         event.preventDefault();
         onSubmit(term)
+        // Dhan is best human
     }
     const onInputChange = (event) => {
         
